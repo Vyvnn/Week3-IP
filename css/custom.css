@@ -1,27 +1,71 @@
-body{
-justify-content: center;
-display: flex;
-align-items: center;
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
-#container{
+
+#container {
     display: flex;
     flex-direction: column;
     width: 90%;
 }
-#about_us{display: flex;
+
+#about_us {
+    
+    display: flex;
     align-items: center;
     justify-content: center;
-flex-direction: column;
-text-align: center;
-margin-top: 2.8%;
-margin-bottom: 2.8%;
-}
-#container-fluid{
-    margin-top: 1.78%;
-display: flex;
-flex-direction: row;
-justify-content: space-between ;
-}
-#box-contents{
+    flex-direction: column;
     text-align: center;
+    margin-top: 2.8%;
+    margin-bottom: 2.8%;
+
+}
+
+#container-fluid {
+    margin-top: 1.78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#services {
+    background-image: url(../images/background_pics/s_image.jpg);
+}
+
+#box-contents {
+
+    text-align: center;
+    margin-top: 1.63%;
+    justify-content: center;
+}
+
+#portfolio-contents {
+    justify-content: center;
+    text-align: center;
+}
+
+#contact_us {
+    background: url(../images/background_pics/c_image.jpg);
+
+    text-align: center;
+    justify-content: end;
+    min-height: 50vh;
+    min-width: 100%;
+margin-top: 2%;
+
+}
+#social_icons{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#forms{
+    background: transparent;
+    }
+#footer{
+    text-align: center;
+    justify-content: center;
 }
