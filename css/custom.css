@@ -47,9 +47,9 @@ body {
 
 #contact_us {
     background: url(../images/background_pics/c_image.jpg);
-
+background-size: cover;
     text-align: center;
-    justify-content: end;
+    justify-content: end; 
     min-height: 50vh;
     min-width: 100%;
 margin-top: 2%;
@@ -68,4 +68,13 @@ margin-top: 2%;
 #footer{
     text-align: center;
     justify-content: center;
+}
+input{
+
+    border-color: white;
+
+    background-color:transparent;
+
+
+
 }
