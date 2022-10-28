@@ -38,7 +38,7 @@ body {
 
 }
 p{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Trirong", serif;
 }
 
 #services{
@@ -108,11 +108,6 @@ input{
 
     background-color:transparent;
     width: 35%;
-
-
-
-
-
 }
 textarea{
     background: transparent;
@@ -128,3 +123,14 @@ textarea{
     opacity: 1;
 
   }
+ 
+  #design:hover{
+    cursor: pointer;
+  }
+
+  /* #project1, #project2, #project3, #project4, #project5,
+  #project6,#project7,#project8{
+    position: absolute;
+    font-weight: bold;
+
+  } */
