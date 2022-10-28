@@ -22,8 +22,10 @@ body {
    background-size: cover;
    text-align: center;
 }
-   
-
+   /* .designs{
+    width: 25%;
+    display: none;
+   } */
 #about_us {
     
     display: flex;
