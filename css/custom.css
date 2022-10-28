@@ -10,11 +10,12 @@ body {
     width: 90%;
 }
 #welcome{
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     background:url(../images/background_pics/h_img.jpg);
-    height: 87vh;
+    height: 80vh;
     width: 100%;
    background-position: center;
    color: white;
@@ -111,7 +112,8 @@ input{
 textarea{
     background: transparent;
     border-color: white;
-    
+    width: 71%;
+    margin-top: 1%;
  
 }
 ::placeholder {
