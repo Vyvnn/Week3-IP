@@ -128,9 +128,19 @@ textarea{
     cursor: pointer;
   }
 
-  /* #project1, #project2, #project3, #project4, #project5,
+  #project1, #project2, #project3, #project4, #project5,
   #project6,#project7,#project8{
     position: absolute;
     font-weight: bold;
+background-color: whitesmoke;
+display: none;
+  } 
 
-  } */
+  #work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  } 
