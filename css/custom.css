@@ -9,13 +9,18 @@ body {
     flex-direction: column;
     width: 90%;
 }
-#welcome{display: flex;
+#welcome{
+    display: flex;
     flex-direction: column;
     align-items: center;
     background:url(../images/background_pics/h_img.jpg);
-    height: 70vh;
+    height: 87vh;
     width: 100%;
-   background-position: center;}
+   background-position: center;
+   color: white;
+   background-size: cover;
+   text-align: center;
+}
    
 
 #about_us {
