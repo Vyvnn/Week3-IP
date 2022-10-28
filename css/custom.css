@@ -9,25 +9,28 @@ body {
     flex-direction: column;
     width: 90%;
 }
-#welcome{
+
+#welcome {
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background:url(../images/background_pics/h_img.jpg);
+    background: url(../images/background_pics/h_img.jpg);
     height: 80vh;
     width: 100%;
-   background-position: center;
-   color: white;
-   background-size: cover;
-   text-align: center;
+    background-position: center;
+    color: white;
+    background-size: cover;
+    text-align: center;
 }
-   .designs{
+
+.designs {
     width: 25%;
     display: none;
-   } 
+}
+
 #about_us {
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,11 +40,12 @@ body {
     margin-bottom: 2.8%;
 
 }
-p{
+
+p {
     font-family: "Trirong", serif;
 }
 
-#services{
+#services {
     display: flex;
     flex-direction: column;
     background: url(../images/services_icons/);
@@ -51,7 +55,7 @@ p{
     justify-content: center;
     align-items: center;
     background-position: center;
-    
+
 }
 
 #container-fluid {
@@ -79,68 +83,104 @@ p{
 
 #contact_us {
     background: url(../images/background_pics/c_image.jpg);
-background-size: cover;
+    background-size: cover;
     text-align: center;
-    justify-content: end; 
+    justify-content: end;
     min-height: 50vh;
     min-width: 100%;
-margin-top: 2%;
-color: white;
+    margin-top: 2%;
+    color: white;
 
 }
-#social_icons{
+
+#social_icons {
     justify-content: center;
     align-items: center;
     text-align: center;
 
 }
 
-#forms{
+#forms {
     background: transparent;
-    }
-#footer{
+}
+
+#footer {
     text-align: center;
     justify-content: center;
 }
-input{
+
+input {
 
     border-color: white;
 
-    background-color:transparent;
+    background-color: transparent;
     width: 35%;
 }
-textarea{
+
+textarea {
     background: transparent;
     border-color: white;
     width: 71%;
     margin-top: 1%;
- 
+
 }
+
 ::placeholder {
 
     color: white;
 
     opacity: 1;
 
-  }
- 
-  #design:hover{
-    cursor: pointer;
-  }
+}
 
-  #project1, #project2, #project3, #project4, #project5,
-  #project6,#project7,#project8{
+#design:hover {
+    cursor: pointer;
+}
+
+#project1,
+#project2,
+#project3,
+#project4,
+#project5,
+#project6,
+#project7,
+#project8 {
     position: absolute;
     font-weight: bold;
-background-color: whitesmoke;
-display: none;
-  } 
+    background-color: whitesmoke;
+    display: none;
+}
 
-  #work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8{
+#work1,
+#work2,
+#work3,
+#work4,
+#work5,
+#work6,
+#work7,
+#work8 {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 
 
-  } 
+}
+#box-contents{
+    text-align: center;
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+}
+#what-we-do{
+    width: 83%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#design_pic,#development_pic,#product_pic{
+    width: 30%;
+}
