@@ -41,8 +41,8 @@ There are no known bugs on this project.
 
 ## Contact information.
 
-Email: vivyan3@gmail.com
-Phone no: 0710437281
+- Email: vivyan3@gmail.com
+- Phone no: 0710437281
 
 ## License and Copyright information.
 
