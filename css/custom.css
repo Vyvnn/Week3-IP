@@ -2,7 +2,9 @@ body {
     justify-content: center;
     display: flex;
     align-items: center;
+    font-family: Josefin Sans;
 }
+
 
 #container {
     display: flex;
@@ -44,9 +46,7 @@ body {
 
 }
 
-p {
-    font-family: "Trirong", serif;
-}
+
 
 #services {
     display: flex;
@@ -182,7 +182,8 @@ textarea {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
 }
 
 #design_pic,
