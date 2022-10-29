@@ -1,141 +1,127 @@
 body {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    font-family: Josefin Sans;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: Josefin Sans;
 }
 
-
 #container {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
 }
 
 #welcome {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(../images/background_pics/h_img.jpg);
-    height: 80vh;
-    width: 100%;
-    background-position: center;
-    color: white;
-    background-size: 100% 100%;
-    text-align: center;
-    font-size: 34.2px;
-
-
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/background_pics/h_img.jpg);
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  color: white;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: 34.2px;
 }
 
 .designs {
-    width: 25%;
-    display: none;
+  width: 25%;
+  display: none;
 }
 
 #about_us {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 2.8%;
-    margin-bottom: 2.8%;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2.8%;
+  margin-bottom: 2.8%;
 }
 
-
-
 #services {
-    display: flex;
-    flex-direction: column;
-    background-image: url(../images/background_pics/s_image.jpg);
-    height: 67vh;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/background_pics/s_image.jpg);
+  height: 67vh;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 #container-fluid {
-    margin-top: 1.78%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  margin-top: 1.78%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
 #what-we-do-contents {
-
-    text-align: center;
-    margin-top: 1.63%;
-    justify-content: center;
+  text-align: center;
+  margin-top: 1.63%;
+  justify-content: center;
 }
 
 #portfolio-contents {
-    justify-content: center;
-    text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #contact_us {
-    background-image: url(../images/background_pics/c_image.jpg);
-    text-align: center;
-    justify-content: end;
-    min-height: 50vh;
-    min-width: 100%;
-    margin-top: 2%;
-    color: white;
-    background-size: 100% 100%
+  background-image: url(../images/background_pics/c_image.jpg);
+  text-align: center;
+  justify-content: end;
+  min-height: 50vh;
+  min-width: 100%;
+  margin-top: 2%;
+  color: white;
+  background-size: 100% 100%;
 }
 
 #social_icons {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #forms {
-    background: transparent;
+  background: transparent;
 }
 
 #footer {
-    text-align: center;
-    justify-content: center;
+  text-align: center;
+  justify-content: center;
 }
 
 input {
+  border-color: white;
 
-    border-color: white;
-
-    background-color: transparent;
-    width: 35%;
-    color: white;
+  background-color: transparent;
+  width: 35%;
+  color: white;
 }
 
 textarea {
-    background: transparent;
-    border-color: white;
-    width: 71%;
-    margin-top: 1%;
-    color: white;
-
+  background: transparent;
+  border-color: white;
+  width: 71%;
+  margin-top: 1%;
+  color: white;
 }
 
 ::placeholder {
+  color: white;
 
-    color: white;
-
-    opacity: 1;
-
+  opacity: 1;
 }
 
 #design:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #project1,
@@ -146,10 +132,10 @@ textarea {
 #project6,
 #project7,
 #project8 {
-    position: absolute;
-    font-weight: bold;
-    background-color: white;
-    display: none;
+  position: absolute;
+  font-weight: bold;
+  background-color: white;
+  display: none;
 }
 
 #work1,
@@ -160,60 +146,53 @@ textarea {
 #work6,
 #work7,
 #work8 {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #what-we-do-contents {
-    text-align: center;
-    align-items: center;
+  text-align: center;
+  align-items: center;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #what-we-do {
-    width: 83%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
-
+  width: 83%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #design_pic,
 #development_pic,
 #product_pic {
-    width: 30%;
+  width: 30%;
 }
 
 #amaze {
-    font-size: small;
+  font-size: small;
 }
 
 #mouse {
-    margin-top: 10.3%;
+  margin-top: 10.3%;
 }
 
 #mouse:hover {
-    cursor: pointer;
-    animation: bounce 0.55s infinite;
-
-
-
+  cursor: pointer;
+  animation: bounce 0.55s infinite;
 }
 
 @keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
 
-    from {
-        transform: translate3d(0, 0, 0);
-    }
-
-    to {
-        transform: translate3d(0, 13px, 0);
-    }}
+  to {
+    transform: translate3d(0, 13px, 0);
+  }
+}
