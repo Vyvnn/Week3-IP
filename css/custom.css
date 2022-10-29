@@ -115,6 +115,7 @@ input {
 
     background-color: transparent;
     width: 35%;
+    color: white;
 }
 
 textarea {
@@ -122,6 +123,7 @@ textarea {
     border-color: white;
     width: 71%;
     margin-top: 1%;
+    color: white;
 
 }
 

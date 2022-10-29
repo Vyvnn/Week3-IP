@@ -147,8 +147,12 @@ $(document).ready(function () {
   )
 
 
+  // $("#submit").click(
+  //   function () {
+  //     alert("Hello!,Message well received.We shall revert shortly. Thank you .")
 
-
+  //   }
+  // )
 
 });
 
