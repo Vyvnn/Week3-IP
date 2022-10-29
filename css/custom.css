@@ -149,8 +149,8 @@ textarea {
   height: 73%;
   width: 75%;
   background: rgba(0, 0, 0, 0.6);
-  font-size:30px ;
-  color: rgba(219, 211, 216);
+  font-size:107% ;
+  color:white;
   
 }
 
@@ -211,4 +211,8 @@ textarea {
   to {
     transform: translate3d(0, 13px, 0);
   }
+}
+
+#pf1,#pf2{
+    display: flex;
 }

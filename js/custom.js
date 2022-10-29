@@ -28,7 +28,7 @@ $(document).ready(function () {
   $("#work1").hover(
     function () {
       $("#project1").show();
-      $(this).css({ cursor: "pointer", opacity: "0.71" });
+      $(this).css({ cursor: "pointer" });
     },
     function () {
       $("#project1").hide();
@@ -39,7 +39,7 @@ $(document).ready(function () {
   $("#work2").hover(
     function () {
       $("#project2").show();
-      $(this).css({ cursor: "pointer", opacity: "0.71" });
+      $(this).css({ cursor: "pointer" });
     },
     function () {
       $("#project2").hide();
@@ -50,7 +50,7 @@ $(document).ready(function () {
   $("#work3").hover(
     function () {
       $("#project3").show();
-      $(this).css({ cursor: "pointer", opacity: "0.71" });
+      $(this).css({ cursor: "pointer" });
     },
     function () {
       $("#project3").hide();
@@ -60,7 +60,7 @@ $(document).ready(function () {
   $("#work4").hover(
     function () {
       $("#project4").show();
-      $(this).css({ cursor: "pointer", opacity: "0.71" });
+      $(this).css({ cursor: "pointer" });
     },
     function () {
       $("#project4").hide();
@@ -71,7 +71,7 @@ $(document).ready(function () {
   $("#work5").hover(
     function () {
       $("#project5").show();
-      $(this).css({ cursor: "pointer", opacity: "0.71" });
+      $(this).css({ cursor: "pointer" });
     },
     function () {
       $("#project5").hide();
@@ -84,7 +84,7 @@ $(document).ready(function () {
     function () {
       $("#project6").show();
 
-      $(this).css({ cursor: "pointer", opacity: "0.71" });
+      $(this).css({ cursor: "pointer" });
     },
     function () {
       $("#project6").hide();
@@ -95,7 +95,7 @@ $(document).ready(function () {
   $("#work7").hover(
     function () {
       $("#project7").show();
-      $(this).css({ cursor: "pointer", opacity: "0.71" });
+      $(this).css({ cursor: "pointer" });
     },
     function () {
       $("#project7").hide();
@@ -106,7 +106,7 @@ $(document).ready(function () {
   $("#work8").hover(
     function () {
       $("#project8").show();
-      $(this).css({ cursor: "pointer", opacity: "0.71" });
+      $(this).css({ cursor: "pointer"});
     },
     function () {
       $("#project8").hide();
