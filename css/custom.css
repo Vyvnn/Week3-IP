@@ -69,7 +69,7 @@ p {
 }
 
 
-#box-contents {
+#what-we-do-contents {
 
     text-align: center;
     margin-top: 1.63%;
@@ -168,7 +168,7 @@ textarea {
 
 }
 
-#box-contents {
+#what-we-do-contents {
     text-align: center;
     align-items: center;
 
@@ -190,12 +190,29 @@ textarea {
 #product_pic {
     width: 30%;
 }
-#amaze{
+
+#amaze {
     font-size: small;
-  }
-#mouse{
+}
+
+#mouse {
     margin-top: 10.3%;
 }
-/* #mouse:hover{
 
-} */
+#mouse:hover {
+    cursor: pointer;
+    animation: bounce 0.55s infinite;
+
+
+
+}
+
+@keyframes bounce {
+
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 13px, 0);
+    }}
