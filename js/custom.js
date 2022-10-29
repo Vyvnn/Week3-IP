@@ -1,35 +1,29 @@
 $(document).ready(function () {
   $("#design_pic").click(function () {
-    $("#design_pic").hide(1200);
-    $("#design").toggle(1200);
-    $("#design").show(1200);
+    $(this).hide();
+    $("#design").toggle().show();
   });
   $("#design").click(function () {
-    $("#design").hide(1200);
-    $("#design_pic").toggle(1200);
-    $("#design_pic").show(1200);
+    $(this).hide();
+    $("#design_pic").toggle().show();
   });
 
   $("#development_pic").click(function () {
-    $("#development_pic").hide(1200);
-    $("#development").toggle(1200);
-    $("#development").show(1200);
+    $(this).hide();
+    $("#development").toggle().show();
   });
   $("#development").click(function () {
-    $("#development").hide(1200);
-    $("#development_pic").toggle(1200);
-    $("#development_pic").show(1200);
+    $(this).hide();
+    $("#development_pic").toggle().show();
   });
 
   $("#product_pic").click(function () {
-    $("#product_pic").hide(1200);
-    $("#product").toggle(1200);
-    $("#product").show(1200);
+    $(this).hide();
+    $("#product").toggle().show();
   });
   $("#product").click(function () {
-    $("#product").hide(1200);
-    $("#product_pic").toggle(1200);
-    $("#product_pic").show(1200);
+    $(this).hide();
+    $("#product_pic").toggle().show();
   });
   $("#work1").hover(
     function () {
