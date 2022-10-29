@@ -147,12 +147,15 @@ $(document).ready(function () {
   )
 
 
-  $("#submit").click(
+  $("#the_form").submit(
   function () {
   alert("Hello!,Message well received.We shall revert shortly. Thank you .")
 
   }
   )
+
+
+
 
 });
 
