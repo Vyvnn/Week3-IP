@@ -5,10 +5,10 @@ body {
   font-family: Josefin Sans;
 }
 
-#container {
+#containers {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
 }
 
 #welcome {
@@ -24,6 +24,10 @@ body {
   background-size: 100% 100%;
   text-align: center;
   font-size: 34.2px;
+  min-height: 50vh;
+  min-width: 100%;
+  
+
 }
 
 .designs {
@@ -52,6 +56,11 @@ body {
   align-items: center;
   background-position: center;
   background-size: 100% 100%;
+  min-height: 50vh;
+  min-width: 100%;
+  margin-top: 2%;
+  
+
 }
 
 #container-fluid {
@@ -136,6 +145,13 @@ textarea {
   font-weight: bold;
   background-color: white;
   display: none;
+  border: solid 6px white;
+  height: 73%;
+  width: 75%;
+  background: rgba(0, 0, 0, 0.6);
+  font-size:30px ;
+  color: rgba(219, 211, 216);
+  
 }
 
 #work1,
@@ -150,6 +166,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: transparent;
 }
 
 #what-we-do-contents {
