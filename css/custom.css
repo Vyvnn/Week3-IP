@@ -22,6 +22,7 @@ body {
     color: white;
     background-size: 100% 100%;
     text-align: center;
+    font-size: 34.2px;
 
 
 }
@@ -189,3 +190,12 @@ textarea {
 #product_pic {
     width: 30%;
 }
+#amaze{
+    font-size: small;
+  }
+#mouse{
+    margin-top: 10.3%;
+}
+/* #mouse:hover{
+
+} */
