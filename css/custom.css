@@ -26,8 +26,6 @@ body {
   font-size: 34.2px;
   min-height: 50vh;
   min-width: 100%;
-  
-
 }
 
 .designs {
@@ -59,8 +57,6 @@ body {
   min-height: 50vh;
   min-width: 100%;
   margin-top: 2%;
-  
-
 }
 
 #container-fluid {
@@ -149,9 +145,11 @@ textarea {
   height: 73%;
   width: 75%;
   background: rgba(0, 0, 0, 0.6);
-  font-size:107% ;
-  color:white;
-  
+  font-size: 107%;
+  color: white;
+  margin: 0;
+  overflow: hidden;
+  background-size: contain;
 }
 
 #work1,
@@ -213,6 +211,7 @@ textarea {
   }
 }
 
-#pf1,#pf2{
-    display: flex;
+#pf1,
+#pf2 {
+  display: flex;
 }
