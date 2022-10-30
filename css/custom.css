@@ -125,7 +125,12 @@ textarea {
   opacity: 1;
 }
 
-#design:hover {
+#design:hover,
+#development:hover,
+#product:hover,
+#design_pic:hover,
+#development_pic:hover,
+#product_pic:hover {
   cursor: pointer;
 }
 
