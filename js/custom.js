@@ -27,8 +27,21 @@ $(document).ready(function () {
   });
   $("#work1").hover(
     function () {
-      $("#project1").show();
+      $("#project1").show().css({
+        background: "rgba(0, 0, 0, 0.6)",
+        height: "73%",
+        width: "75%",
+        "font-size": "121%",
+        color: "white",
+      });
       $(this).css({ cursor: "pointer" });
+      if ($(window).width() < 850) {
+        $("#project1").css({
+          "font-size": "71%",
+          "border-width": "2.5px",
+          width: "60%",
+        });
+      }
     },
     function () {
       $("#project1").hide();
@@ -38,8 +51,21 @@ $(document).ready(function () {
 
   $("#work2").hover(
     function () {
-      $("#project2").show();
+      $("#project2").show().css({
+        background: "rgba(0, 0, 0, 0.6)",
+        height: "73%",
+        width: "75%",
+        "font-size": "121%",
+        color: "white",
+      });
       $(this).css({ cursor: "pointer" });
+      if ($(window).width() < 850) {
+        $("#project2").css({
+          "font-size": "71%",
+          "border-width": "2.5px",
+          width: "60%",
+        });
+      }
     },
     function () {
       $("#project2").hide();
@@ -49,8 +75,21 @@ $(document).ready(function () {
 
   $("#work3").hover(
     function () {
-      $("#project3").show();
+      $("#project3").show().css({
+        background: "rgba(0, 0, 0, 0.6)",
+        height: "73%",
+        width: "75%",
+        "font-size": "121%",
+        color: "white",
+      });
       $(this).css({ cursor: "pointer" });
+      if ($(window).width() < 850) {
+        $("#project3").css({
+          "font-size": "71%",
+          "border-width": "2.5px",
+          width: "60%",
+        });
+      }
     },
     function () {
       $("#project3").hide();
@@ -59,8 +98,22 @@ $(document).ready(function () {
   );
   $("#work4").hover(
     function () {
-      $("#project4").show();
+      $("#project4").show().css({
+        background: "rgba(0, 0, 0, 0.6)",
+        height: "73%",
+        width: "75%",
+        "font-size": "121%",
+        color: "white",
+      });
       $(this).css({ cursor: "pointer" });
+
+      if ($(window).width() < 850) {
+        $("#project4").css({
+          "font-size": "71%",
+          "border-width": "2.5px",
+          width: "60%",
+        });
+      }
     },
     function () {
       $("#project4").hide();
@@ -70,8 +123,22 @@ $(document).ready(function () {
 
   $("#work5").hover(
     function () {
-      $("#project5").show();
+      $("#project5").show().css({
+        background: "rgba(0, 0, 0, 0.6)",
+        height: "73%",
+        width: "75%",
+        "font-size": "121%",
+        color: "white",
+      });
       $(this).css({ cursor: "pointer" });
+
+      if ($(window).width() < 850) {
+        $("#project5").css({
+          "font-size": "71%",
+          "border-width": "2.5px",
+          width: "60%",
+        });
+      }
     },
     function () {
       $("#project5").hide();
@@ -82,9 +149,23 @@ $(document).ready(function () {
 
   $("#work6").hover(
     function () {
-      $("#project6").show();
+      $("#project6").show().css({
+        background: "rgba(0, 0, 0, 0.6)",
+        height: "73%",
+        width: "75%",
+        "font-size": "121%",
+        color: "white",
+      });
 
       $(this).css({ cursor: "pointer" });
+
+      if ($(window).width() < 850) {
+        $("#project6").css({
+          "font-size": "71%",
+          "border-width": "2.5px",
+          width: "60%",
+        });
+      }
     },
     function () {
       $("#project6").hide();
@@ -94,8 +175,22 @@ $(document).ready(function () {
 
   $("#work7").hover(
     function () {
-      $("#project7").show();
+      $("#project7").show().css({
+        background: "rgba(0, 0, 0, 0.6)",
+        height: "73%",
+        width: "75%",
+        "font-size": "121%",
+        color: "white",
+      });
       $(this).css({ cursor: "pointer" });
+
+      if ($(window).width() < 850) {
+        $("#project7").css({
+          "font-size": "71%",
+          "border-width": "2.5px",
+          width: "60%",
+        });
+      }
     },
     function () {
       $("#project7").hide();
@@ -105,9 +200,24 @@ $(document).ready(function () {
 
   $("#work8").hover(
     function () {
-      $("#project8").show();
-      $(this).css({ cursor: "pointer"});
+      $("#project8").show().css({
+        background: "rgba(0, 0, 0, 0.6)",
+        height: "73%",
+        width: "75%",
+        "font-size": "121%",
+        color: "white",
+      });
+      $(this).css({ cursor: "pointer" });
+
+      if ($(window).width() < 850) {
+        $("#project8").css({
+          "font-size": "71%",
+          "border-width": "2.5px",
+          width: "60%",
+        });
+      }
     },
+
     function () {
       $("#project8").hide();
       $(this).css({ opacity: "1" });

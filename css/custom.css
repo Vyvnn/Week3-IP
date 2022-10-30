@@ -140,16 +140,8 @@ textarea {
   position: absolute;
   font-weight: bold;
   background-color: white;
-  display: none;
   border: solid 6px white;
-  height: 73%;
-  width: 75%;
-  background: rgba(0, 0, 0, 0.6);
-  font-size: 107%;
-  color: white;
-  margin: 0;
-  overflow: hidden;
-  background-size: contain;
+  display: none;
 }
 
 #work1,
